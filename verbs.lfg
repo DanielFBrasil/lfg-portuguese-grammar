@@ -1,0 +1,608 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+"finite"
+
+proíbe 	  V * @(DIRECTIVE PROIBIR OBJ DE) "@(DO-CTRL-V-C PROIBIR DE)"
+	      @(V-AGR 3 SG)
+	      @PRS
+	      @IND.
+
+pergunta    V * { @(IO-CTRL-V-C PERGUNTAR PARA) "@(DIRECTIVE PERGUNTAR OBJ2 PARA)" | 
+	       "@(CTRL-V-C PERGUNTAR PARA)" 
+	        @(DITRANS PERGUNTAR) |
+	        @(COMP-IO-V PERGUNTAR IND INTERR) }
+	        @A-FORM-V.
+	        
+compro 	  V * @(OPT-DITRANS COMPRAR)
+	      @O-FORM-V.
+	      
+compra	  V * @(OPT-DITRANS COMPRAR)
+	      @A-FORM-V.
+	      
+compre	  V * @(OPT-DITRANS COMPRAR)
+	      @E-FORM-V.	      
+
+espera 	  V * { (^ PRED)='ESPERAR<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ESPERAR<(^ SUBJ)>'}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.      
+
+espere      V * { (^ PRED)='ESPERAR<(^ SUBJ)>' | 
+	           (^ PRED)='ESPERAR<(^ SUBJ)(^ OBJ)>'}
+	      (^ SUBJ NUM)=SG
+	      { (^ SUBJ PERS)=3 |
+		(^ SUBJ PERS)=1 }
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+esperam     V * { (^ PRED)='ESPERAR<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ESPERAR<(^ SUBJ)>'}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=PL
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+cante 	  V * @(INTRANS CANTAR)
+	      @E-FORM-V.
+	      
+canta	  V * @(INTRANS CANTAR)
+	      @A-FORM-V.
+	      
+canto       V * @(INTRANS CANTAR)
+	      @O-FORM-V.
+
+chego       V * (^ PRED)='CHEGAR<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS) = 1
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+chega 	  V * (^ PRED)='CHEGAR<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS) = 3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+chegue 	  V * (^ PRED)='CHEGAR<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG
+	      { (^ SUBJ PERS) = 1 | (^ SUBJ PERS)=3}
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+encontro    V * (^ PRED)='ENCONTRAR<(^ SUBJ)(^ OBJ)>'
+	     (^ SUBJ PERS)=1
+	     (^ SUBJ NUM)=SG
+	     (^ TENSE)=PRES
+	     (^ MOOD)=IND.
+
+encontra    V * (^ PRED)='ENCONTRAR<(^ SUBJ)(^ OBJ)>'
+	     (^ SUBJ PERS)=3
+	     (^ SUBJ NUM)=SG
+	     (^ TENSE)=PRES
+	     (^ MOOD)=IND.
+
+encontre    V * (^ PRED)='ENCONTRAR<(^ SUBJ)(^ OBJ)>'
+	      { (^ SUBJ PERS)=1 | (^ SUBJ PERS)=3}
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+conto	V * (^ PRED)='CONTAR<(^ SUBJ)(^ OBJ)>'
+	    (^ SUBJ PERS)=1
+	    (^ SUBJ NUM)=SG
+	    (^ TENSE)=PRES
+	    (^ MOOD)=IND.
+
+conta	V * (^ PRED)='CONTAR<(^ SUBJ)(^ OBJ)>'
+	    (^ SUBJ PERS)=3
+	    (^ SUBJ NUM)=SG
+	    (^ TENSE)=PRES
+	    (^ MOOD)=IND.
+
+conte     V * (^ PRED)='CONTAR<(^ SUBJ)(^ OBJ)>'
+	      { (^ SUBJ PERS)=1 | (^ SUBJ PERS)=3}
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+caminho   V * (^ PRED)='CAMINHAR<(^ SUBJ)>'
+	    (^ SUBJ PERS)=1
+	    (^ SUBJ NUM)=SG
+	    (^ TENSE)=PRES
+	    (^ MOOD)=IND.
+
+caminha   V * (^ PRED)='CAMINHAR<(^ SUBJ)>'
+	    (^ SUBJ PERS)=3
+	    (^ SUBJ NUM)=SG
+	    (^ TENSE)=PRES
+	    (^ MOOD)=IND.
+
+procuro   V * @(OPT-TRANS PROCURAR)
+	    @IND
+	    @(V-AGR 1 SG)
+	    @PRS.
+
+procuras  V * @(OPT-TRANS PROCURAR)
+	    @IND
+	    @(V-AGR 2 SG)
+	    @PRS.
+
+procura   V * @(OPT-TRANS PROCURAR)
+	    @IND
+	    @(V-AGR 3 SG)
+	    @PRS.
+
+procuramos   V * @(OPT-TRANS PROCURAR)
+	       @IND
+	       @(V-AGR 1 PL)
+	       @PRS.
+
+procurais   V * @(OPT-TRANS PROCURAR)
+	      @IND
+	      @(V-AGR 2 PL)
+	      @PRS.
+
+procuram   V *  @(OPT-TRANS PROCURAR)
+	      @IND
+	      @(V-AGR 3 PL)
+	      @PRS.
+	      
+procures  V * @(OPT-TRANS PROCURAR)
+	    @SBJV
+	    @(V-AGR 2 SG)
+	    @PRS.
+
+depende 	  V * (^ PRED)='DEPENDER<(^ SUBJ)(^ OBL)>'
+	      (^ OBL CASE)=c DE
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+dou 	  V * {(^ PRED)='DAR<(^ SUBJ)(^ OBJ)(^ OBJ2)>' 
+		{(^ OBJ2 CASE)=c A | (^ OBJ2 CASE)=c PARA} |
+		(^ PRED)='DAR<(^ SUBJ)(^ OBJ)>'}
+	      (^ SUBJ PERS)=1
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+	      	      
+dá	V * {(^ PRED)='DAR<(^ SUBJ)(^ OBJ)(^ OBJ2)>' 
+		{(^ OBJ2 CASE)=c A | (^ OBJ2 CASE)=c PARA} |		
+		(^ PRED)='DAR<(^ SUBJ)(^ OBJ)>'}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+é 	  V * { (^ PRED)='SER<(^ SUBJ)(^ XCOMP)>'
+		(^ SUBJ)=(^ XCOMP SUBJ)
+		@(CAT (^ XCOMP) AP)
+		(^ TENSE)=PRES|
+		"(^ AUX) = SER"
+		"(^ PASSIVE) = +"
+		(^ VFORM) =c PART_PASS 
+		(^ TENSE)=PRES| 
+		(^ VFORM) =c PART_PAST
+		(^ AUX) =c SER
+		(^ TENSE)=COMPOUND_PAST }
+	      @(V-AGR 3 SG)
+	      @IND.
+
+está 	  V * (^ PRED)='ESTAR<(^ SUBJ)(^ XCOMP)>'
+		(^ SUBJ)=(^ XCOMP SUBJ)
+		@(CAT (^ XCOMP) {AP PP})
+		(^ TENSE)=PRES
+	      @(V-AGR 3 SG)
+	      @IND.
+
+são 	  V * { (^ PRED)='SER<(^ SUBJ)(^ XCOMP)>'
+		(^ SUBJ)=(^ XCOMP SUBJ)
+		@(CAT (^ XCOMP) {AP PP})
+		(^ TENSE)=PRES|
+		"(^ AUX) = SER"
+		"(^ PASSIVE) = +"
+		(^ VFORM) =c PART_PASS 
+		(^ TENSE)=PRES|
+		(^ VFORM) =c PART_PAST
+		(^ TENSE)=COMPOUND_PAST 
+		(^ AUX) =c SER}
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=PL
+	      (^ MOOD)=IND.
+
+tem         V * { (^ PRED)='TER<(^ SUBJ)(^ OBJ)>'
+		(^ TENSE)=PRES| 
+		(^ AUX) =c TER
+		(^ VFORM) =c PART_PAST
+		(^ TENSE)=COMPOUND_PAST}
+	      "(^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ MOOD)=IND"
+	      @(V-AGR 3 SG)
+	      @IND.
+
+têm         V * { (^ PRED)='TER<(^ SUBJ)(^ OBJ)>'
+		(^ TENSE)=PRES| 
+		(^ AUX) =c TER
+		(^ VFORM) =c PART_PAST
+		(^ TENSE)=COMPOUND_PAST}
+	      "(^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=PL
+	      (^ MOOD)=IND"
+	      @(V-AGR 3 PL)
+	      @IND.
+
+parece 	  V * (^ PRED)='PARECER<(^ SUBJ)(^ XCOMP)>'
+	      (^ SUBJ)=(^ XCOMP SUBJ)
+	      @(CAT (^ XCOMP) AP)
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+passa 	  V * (^ PRED)='PASSAR<(^ SUBJ)>'
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=SG
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+passam   V * (^ PRED)='PASSAR<(^ SUBJ)>'
+	      (^ SUBJ PERS)=3
+	      (^ SUBJ NUM)=PL
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+deve 	  V * @(CTRL-V DEVER)
+	      @(V-AGR 3 SG)
+	      @IND
+	      @PRS.
+
+continuo  V * @(CTRL-V-C CONTINUAR A)
+	    @(V-AGR 1 SG)
+	    @IND
+	    @PRS.
+	    
+continua  V * @(CTRL-V-C CONTINUAR A)
+              @(V-AGR 3 SG)
+              @IND
+              @PRS.
+              
+continue  V * @(CTRL-V-C CONTINUAR A)
+               { @(V-AGR 1 SG) | @(V-AGR 3 SG)}
+              @SBJV
+              @PRS.
+	      
+quer 	V * { "(^ PRED)='QUERER<(^ SUBJ)(^ XCOMP)>' "
+		"(^ XCOMP SUBJ)=(^ SUBJ)"
+		@(CTRL-V QUERER)
+		"~ (^ XCOMP CFORM)"
+		"(^ XCOMP VFORM) =c INF" "TODO: check if only (^ XCOMP VFORM) excludes AP and PP XCOMPs"
+	       |
+		(^ PRED)='QUERER<(^ SUBJ)(^ COMP)>'
+		(^ COMP MOOD) =c SUBJUNCT
+		(^ COMP CLAUSE_TYPE) ="c" DECLAR}
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+crê 	  V * (^ PRED)='CRER<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM) 
+	      (^ XCOMP VFORM) =c INF
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+veja        V * {@(TRANS VER) | @(DO-CTRL-V VER)}
+	      @E-FORM-V.
+
+vejo        V * {@(TRANS VER) | @(DO-CTRL-V VER)}
+	      @O-FORM-V.
+
+vê          V * {@(TRANS VER) | @(DO-CTRL-V VER)}
+	      @A-FORM-V.
+	      
+"vê 	  V * { (^ PRED)='VER<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='VER<(^ SUBJ)(^ OBJ)>' }
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND. "
+
+escuto      V * @(DO-CTRL-V ESCUTAR)
+	      @(V-AGR 1 SG)
+	      @IND
+	      @PRS.
+
+"escuta      V * @(DO-CTRL-V ESCUTAR)
+	      @(V-AGR 3 SG)
+	      @IND
+	      @PRS."
+
+escuta 	  V * { (^ PRED)='ESCUTAR<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='ESCUTAR<(^ SUBJ)(^ OBJ)>' }
+	      @IND
+	      @PRS
+	      @(V-AGR 3 SG).
+
+escute      V * @(DO-CTRL-V ESCUTAR)
+	      { @(V-AGR 1 SG) | @(V-AGR 3 SG)}
+	      @SBJV
+	      @PRS.
+
+convide 	  V * @(DIRECTIVE CONVIDAR OBJ A)
+	      @E-FORM-V.
+	      
+convido 	  V * @(DIRECTIVE CONVIDAR OBJ A)
+	      @O-FORM-V.
+	      
+convida	  V * @(DIRECTIVE CONVIDAR OBJ A)
+	      @A-FORM-V.	
+
+obrigue 	  V * @(DIRECTIVE OBRIGAR OBJ A)
+	      @E-FORM-V.
+
+obrigo 	  V * @(DIRECTIVE OBRIGAR OBJ A)
+	      @O-FORM-V.
+	      
+obriga 	  V * @(DIRECTIVE OBRIGAR OBJ A)
+	      @A-FORM-V.
+
+implore   V * @(DIRECTIVE IMPLORAR OBJ2 PARA)
+	    @E-FORM-V.
+
+imploro   V * @(DIRECTIVE IMPLORAR OBJ2 PARA)
+	    @O-FORM-V.
+	      
+implora   V * @(DIRECTIVE IMPLORAR OBJ2 PARA)
+	    @A-FORM-V.
+	      
+peça       V * { @(IO-CTRL-V-C PEDIR PARA) "@(DIRECTIVE PEDIR OBJ2 PARA)" |
+	       @(CTRL-V-C PEDIR PARA) |
+	       @(DITRANS PEDIR) |
+	       @(COMP-V PEDIR SUBJUNCT DECLAR) |
+	       @(COMP-IO-V PEDIR IND DECLAR) }
+	       @E-FORM-V.
+	      
+peço       V * { @(IO-CTRL-V-C PEDIR PARA) "@(DIRECTIVE PEDIR OBJ2 PARA)" |
+	       @(CTRL-V-C PEDIR PARA) |
+	       @(DITRANS PEDIR) |
+	       @(COMP-V PEDIR SUBJUNCT DECLAR) |
+	       @(COMP-IO-V PEDIR IND DECLAR) }
+	       @O-FORM-V.
+	      
+pede       V * { @(IO-CTRL-V-C PEDIR PARA) "@(DIRECTIVE PEDIR OBJ2 PARA)" |
+	       @(CTRL-V-C PEDIR PARA) |
+	       @(DITRANS PEDIR) |
+	       @(COMP-V PEDIR SUBJUNCT DECLAR) |
+	       @(COMP-IO-V PEDIR IND DECLAR) }
+	       @A-FORM-V.
+
+permito 	  V * { @(DIRECTIVE PERMITIR OBJ2 DE) |
+		@(COMP-V PERMITIR SUBJUNCT DECLAR)}
+	      @(V-AGR 1 SG)
+	      @PRS
+	      @IND.
+
+permite 	  V * { @(DIRECTIVE PERMITIR OBJ2 DE) |
+		@(COMP-V PERMITIR SUBJUNCT DECLAR)}
+	      @(V-AGR 3 SG)
+	      @PRS
+	      @IND.
+
+permita     V * { @(DIRECTIVE PERMETTRE OBJ2 DE) |
+		@(COMP-V PERMETTRE SUBJUNCT DECLAR)}
+	      { @(V-AGR 1 SG) | @(V-AGR 3 SG) }
+	      @PRS
+	      @SBJV.
+
+exige 	  V * { (^ PRED)='EXIGIR<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM)
+	      (^ XCOMP VFORM) =c INF |
+	      (^ PRED)='EXIGIR<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) ="c" SUBJUNCT
+	      (^ COMP CLAUSE_TYPE) ="c" DECLAR |
+	      @(DITRANS EXIGIR) }
+	      @A-FORM-V
+	      @IND.
+	      
+exijo 	  V * { (^ PRED)='EXIGIR<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM)
+	      (^ XCOMP VFORM) =c INF |
+	      (^ PRED)='EXIGIR<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) ="c" SUBJUNCT
+	      (^ COMP CLAUSE_TYPE) ="c" DECLAR |
+	      @(DITRANS EXIGIR) }
+	      @O-FORM-V.
+	      
+exija 	  V * { (^ PRED)='EXIGIR<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM)
+	      (^ XCOMP VFORM) =c INF |
+	      (^ PRED)='EXIGIR<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) ="c" SUBJUNCT
+	      (^ COMP CLAUSE_TYPE) ="c" DECLAR |
+	      @(DITRANS EXIGIR) }
+	      @E-FORM-V.
+
+sabe 	  V * (^ PRED)='SABER<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) ="c" IND
+	      "(^ COMP CLAUSE_TYPE) =c DECLAR" 
+	      (^ SUBJ NUM)=SG
+	      (^ SUBJ PERS)=3
+	      (^ TENSE)=PRES
+	      (^ MOOD)=IND.
+
+saiba 	  V * (^ PRED)='SABER<(^ SUBJ)(^ COMP)>'
+	      (^ COMP MOOD) =c IND
+	      "(^ COMP CLAUSE_TYPE) =c DECLAR"
+	      (^ SUBJ NUM)=SG
+	      { (^ SUBJ PERS)=1 |
+		(^ SUBJ PERS)=3}
+	      (^ TENSE)=PRES
+	      (^ MOOD)=SUBJUNCT.
+
+comece      V * @(CTRL-V-C COMEÇAR A)
+	      @E-FORM-V.
+
+começo      V * @(CTRL-V-C COMEÇAR A)
+	      @O-FORM-V.
+
+começa      V * @(CTRL-V-C COMEÇAR A)
+	      @A-FORM-V.
+
+cessa 	  V * @(CTRL-V-C CESSAR DE)
+	      @A-FORM-V.
+
+"Participles"
+
+comprado 	  V * { @(PASSIVE @(OPT-DITRANS COMPRAR))
+		"(^ VFORM)=PART_PASS"
+		@(A-AGR MAS SG) |
+		@(OPT-DITRANS COMPRAR)
+		(^ VFORM)=PART_PAST}.
+
+comprada    V * @(PASSIVE @(OPT-DITRANS COMPRAR))
+	      "(^ VFORM)=PART_PASS"
+	      @(A-AGR FEM SG).
+
+compradas   V * @(PASSIVE @(OPT-DITRANS COMPRAR))
+	      "(^ VFORM)=PART_PASS"
+	      @(A-AGR FEM PL).
+
+chegado 	  V * @(INTRANS CHEGAR)
+	      (^ VFORM) = PART_PAST
+	      (^ AUX) = TER.
+
+cantado 	  V * @(OPT-TRANS CANTAR)
+	      (^ VFORM) = PART_PAST
+	      (^ AUX) = TER.
+
+dançado 	  V * @(INTRANS DANÇAR)
+	      (^ VFORM) = PART_PAST
+	      (^ AUX) = TER.
+
+esperado   V * { { (^ PRED)='ESPERAR<(^ OBL)(^ SUBJ)>'
+		  (^ OBL CASE)=c POR |
+		  (^ PRED)='ESPERAR<NULL (^ SUBJ)>'}
+		(^ VFORM)= PART_PASS
+		(^ SUBJ GEN)=MAS
+		(^ SUBJ NUM)=SG |
+		@(OPT-TRANS ESPERAR)
+		(^ VFORM) = PART_PAST
+		(^ AUX) = TER}.
+
+esperada   V * { (^ PRED)='ESPERAR<(^ OBL)(^ SUBJ)>'
+		(^ OBL CASE)=c POR |
+		(^ PRED)='ESPERAR<NULL (^ SUBJ)>'}
+	      (^ VFORM)=PART_PASS
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+habitado 	  V * @(PASS-TRANS HABITAR MAS SG).
+
+habitados   V * @(PASS-TRANS HABITAR MAS PL).
+
+habitada 	  V * @(PASS-TRANS HABITAR FEM SG).
+
+habitadas	  V * @(PASS-TRANS HABITAR FEM PL).
+
+dadas      V * { (^ PRED)='DAR<(^ OBL)(^ SUBJ)(^ OBJ2)>'
+		(^ OBL CASE)=c POR |
+		(^ PRED)='DAR<(^ SUBJ)(^ OBJ2)>'}
+	      (^ VFORM)=PART_PASS
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+dada       V * { (^ PRED)='DAR<(^ OBL)(^ SUBJ)(^ OBJ2)>'
+		(^ OBL CASE)=c POR |
+		(^ PRED)='DAR<(^ SUBJ)(^ OBJ2)>'}
+	      (^ VFORM)=PART_PASS
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+dados      V * { (^ PRED)='DAR<(^ OBL)(^ SUBJ)(^ OBJ2)>'
+		(^ OBL CASE)=c POR |
+	          (^ PRED)='DAR<(^ SUBJ)(^ OBJ2)>'}
+	       (^ VFORM)=PART_PASS
+	       (^ SUBJ GEN)=MAS
+	       (^ SUBJ NUM)=PL.
+
+dado       V * { (^ PRED)='DAR<(^ OBL)(^ SUBJ)(^ OBJ2)>'
+		(^ OBL CASE)=c POR |
+		(^ PRED)='DAR<(^ SUBJ)(^ OBJ2)>'}
+	      (^ VFORM)=PART_PASS
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+	      
+"infinitive"
+
+esperar     V * { (^ PRED)='ESPERAR<(^ SUBJ)(^ OBJ)>' |
+		(^ PRED)='ESPERAR<(^ SUBJ)>'}
+	      (^ VFORM)=INF.
+
+combater    V * (^ PRED)='COMBATER<(^ SUBJ)(^ OBJ)>'
+	      (^ VFORM)=INF.
+
+dançar    V * (^ PRED)='DANÇAR<(^ SUBJ)>'
+              (^ VFORM)=INF.
+
+cantar      V * (^ PRED)='CANTAR<(^ SUBJ)>'
+                (^ VFORM)=INF.
+
+chorar      V * (^ PRED)='CHORAR<(^ SUBJ)>'
+                (^ VFORM)=INF.
+
+comprar     V * (^ PRED)='COMPRAR<(^ SUBJ)>'
+                (^ VFORM)=INF.
+
+passar     V * (^ PRED)='PASSAR<(^ SUBJ)>'
+	      (^ VFORM)=INF.
+
+crer 	  V * (^ PRED)='CRER<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM) 
+	      (^ XCOMP VFORM) =c INF
+	      (^ VFORM)=INF.
+
+ver 	  V * { (^ PRED)='VER<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='VER<(^ SUBJ)(^ OBJ)>' }
+	          (^ VFORM)=INF.
+
+poder       V * (^ PRED)='PODER<(^ SUBJ)(^ XCOMP)>'
+	      (^ XCOMP SUBJ)=(^ SUBJ)
+	      ~ (^ XCOMP CFORM)
+	      (^ XCOMP VFORM) =c INF
+	      (^ VFORM)=INF.
+
+escutar 	  V * { (^ PRED)='ESCUTAR<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+		(^ XCOMP SUBJ)=(^ OBJ)
+		~ (^ XCOMP CFORM)
+		(^ XCOMP VFORM) =c INF
+	      | 
+		(^ PRED)='ESCUTAR<(^ SUBJ)(^ OBJ)>' }
+	          (^ VFORM)=INF.
+	      
+convidar    V *  (^ PRED)='CONVIDAR<(^ SUBJ)(^ OBJ)>'
+	       (^ VFORM)=INF.      
+
+----
