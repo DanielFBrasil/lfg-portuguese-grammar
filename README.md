@@ -11,7 +11,7 @@ Copyright (C) 2016-2017 Daniel de F. B. Soares & Francisco Gleiberson Nogueira
 
 License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). For more information, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-PTBrGramm is a computational grammar fragment of brazilian Portuguese in the LFG formalism. It is implemented in the Xerox Linguistic Environment - XLE. To compile a parser from the grammar and parse sentences in brazilian Portuguese, you need XLE: http://www2.parc.com/isl/groups/nltt/xle/. PTBrGramm is a adapted version of the grammar fragment from chapters 6 and 7 of the following book:
+PTBrGramm is a computational grammar fragment of brazilian Portuguese in the LFG formalism. It is implemented in the Xerox Linguistic Environment - XLE. To compile a parser from the grammar and parse sentences in brazilian Portuguese, you need XLE: http://www2.parc.com/isl/groups/nltt/xle/. PTBrGramm is an adapted version of the grammar fragment from chapters 6 and 7 of the following book:
 
 Schwarze, Christoph & Alencar, Leonel F. de. Lexikalisch-funktionale Grammatik: Eine Einführung am Beispiel des Französischen mit computerlinguistischer Implementierung [Lexical-Functional Grammar: A French-based Introduction with Computational Implementation]. Tübingen: Stauffenburg, 2016. X, 271 pp. Stauffenburg Einführungen, 30. ISBN 978-3-95809-411-6.
 
