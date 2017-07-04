@@ -1,0 +1,99 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+um 	  D * (^ GEN)=MAS 
+	      (^ NUM)=SG
+	      (^ SPEC)=INDEF.
+
+uma 	  D * (^ GEN)=FEM 
+	      (^ NUM)=SG
+	      (^ SPEC)=INDEF.
+
+umas 	  D * (^ GEN)=FEM 
+	      (^ NUM)=PL
+	      (^ SPEC)=INDEF.
+	      
+uns 	  D * (^ GEN)=MAS 
+	      (^ NUM)=PL
+	      (^ SPEC)=INDEF.
+
+o 	  D * (^ GEN)=MAS
+	      (^ NUM)=SG
+	      (^ SPEC)=DEF.
+
+os 	  D * (^ GEN)=MAS 
+	      (^ NUM)=PL
+	      (^ SPEC)=DEF.
+
+as 	  D * (^ GEN)=FEM 
+	      (^ NUM)=PL
+	      (^ SPEC)=DEF.
+
+aquela 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=DISTAL.
+
+aquele 	  D * (^ GEN)=MAS
+	      (^ NUM)=SG
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=DISTAL.
+	     
+aquelas 	  D * (^ GEN)=FEM
+	      (^ NUM)=PL
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=DISTAL. 	  
+
+aqueles 	  D * (^ GEN)=MAS
+	      (^ NUM)=PL
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=DISTAL.
+
+essa 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=PROXIMAL.
+
+esse 	  D * (^ GEN)=MAS
+	      (^ NUM)=SG
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=PROXIMAL.
+	     
+essas 	  D * (^ GEN)=FEM
+	      (^ NUM)=PL
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=PROXIMAL. 	  
+
+esses 	  D * (^ GEN)=MAS
+	      (^ NUM)=PL
+	      (^ SPEC)=DEM
+	      (^ DEIXIS)=PROXIMAL.
+
+seu 	  D * (^ GEN)=MAS
+	      (^ NUM)=SG
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+sua 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+seus 	  D * (^ GEN)=MAS
+	      (^ NUM)=PL
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+suas 	  D * (^ GEN)=FEM
+	      (^ NUM)=PL
+	      (^ POSS PRED)='PRO'
+	      (^ POSS NUM)=SG
+	      (^ POSS PERS)=3
+	      (^ SPEC)=DEF.
+
+----

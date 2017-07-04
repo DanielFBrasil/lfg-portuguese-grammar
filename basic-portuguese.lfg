@@ -1,0 +1,27 @@
+BASIC   PORTUGUESE   CONFIG (1.0)
+  ROOTCAT   Root. 
+  FILES
+  adjectives.lfg
+  adverbs.lfg
+  person.lfg
+  complementizers.lfg
+  determiners.lfg
+  homonyms.lfg
+  morphology.lfg
+  nouns.lfg
+  pargram.templates.lfg
+  prepositions.lfg
+  punctuation.lfg
+  rules.lfg
+  templates.lfg
+  verbs.lfg.
+  LEXENTRIES   (BASIC PORTUGUESE) .
+  RULES   (BASIC PORTUGUESE).
+  MORPHOLOGY (BASIC PORTUGUESE).
+  TEMPLATES (PARGRAM ENGLISH) (BASIC PORTUGUESE).
+  GOVERNABLERELATIONS SUBJ OBJ OBJ2 OBL COMP XCOMP.
+  SEMANTICFUNCTIONS ADJ.
+  CHARACTERENCODING utf-8.
+
+----
+

@@ -1,0 +1,117 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+amável      A * (^ PRED)='AMÁVEL<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG.
+
+amáveis     A * (^ PRED)='AMÁVEL<(^ SUBJ)>'
+	      (^ SUBJ NUM)=PL.
+
+antigo      A * @(AMB FORMER OLD)
+	      @(A ANTIGO MAS SG).
+	      
+antigos     A * @(AMB FORMER OLD)
+	      @(A ANTIGO MAS PL).	  
+	      	      	      	  
+antiga      A * @(AMB FORMER OLD)
+	      @(A ANTIGO FEM SG).	  
+
+antigas     A * @(AMB FORMER OLD)
+	      @(A ANTIGO FEM PL).
+	      
+azul 	  A * @(A AZUL MAS SG)
+	      @COL.
+
+bela 	  A * (^ PRED)='BELO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+belas 	  A * (^ PRED)='BELO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+belo        A * (^ PRED)='BELO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+	      
+belos 	  A * (^ PRED)='BELO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+	     
+branco 	  A * (^ PRED)='BRANCO<(^ SUBJ)>'
+	      @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+branca      A * (^ PRED)='BRANCO<(^ SUBJ)>'
+	      @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+brancos 	  A * (^ PRED)='BRANCO<(^ SUBJ)>'
+	      @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+brancas     A * (^ PRED)='BRANCO<(^ SUBJ)>'
+	      @(IFF (^ ATYPE)=ATTRIB (^ POSITION)=POSTNOM)
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+
+corajoso   A * (^ PRED)='CORAJOSO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+corajosa   A * (^ PRED)='CORAJOSO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+corajosos   A * (^ PRED)='CORAJOSO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+corajosas   A * (^ PRED)='CORAJOSO<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+	      
+eleitoral   A * (^ PRED)='ELEITORAL<(^ SUBJ)>'
+	       (^ ATYPE)=ATTRIB 
+	       (^ POSITION)=POSTNOM
+	       (^ SUBJ NUM)=SG.
+
+fiel        A * (^ PRED)='FIEL<(^ SUBJ)>'
+	      (^ SUBJ NUM)=SG.
+
+francês     A * @(A FRANCÊS MAS SG)
+	      @GEO.
+
+mau   A * (^ PRED)='MAU<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+má   A * (^ PRED)='MAU<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=SG.
+
+maus   A * (^ PRED)='MAU<(^ SUBJ)>'
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=PL.
+
+más   A * (^ PRED)='MAU<(^ SUBJ)>'
+	      (^ SUBJ GEN)=FEM
+	      (^ SUBJ NUM)=PL.
+	      
+importante   A * (^ PRED)='IMPORTANTE<(^ SUBJ)>'
+	       (^ SUBJ NUM)=SG.
+
+paterno     A * @(REL PATERNO MAS SG).
+
+próprio 	  A * (^ PRED)='PRÓPRIO<(^ SUBJ)>'
+	      (^ POSITION)=PRENOM
+	      (^ GLOSS)='OWN' 	      
+	      (^ SUBJ GEN)=MAS
+	      (^ SUBJ NUM)=SG.
+
+suposto      A * @(A SUPOSTO MAS SG)
+	       @A-PRE.
+
+----

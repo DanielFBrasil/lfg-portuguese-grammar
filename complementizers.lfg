@@ -1,0 +1,10 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+que 	  C * (^ TENSE)
+	      (^ CLAUSE_TYPE)=DECLAR.
+
+se 	  C * (^ TENSE)
+	      (^ CLAUSE_TYPE)=INTERR
+	      (^ MOOD) =c IND.
+
+----

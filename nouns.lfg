@@ -1,0 +1,75 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+fada 	  N * @(F-SG FADA)
+	     "@(T1 ANIM SORT)".
+
+fadas 	  N * @(F-PL FADA).
+
+jóias 	  N * @(F-PL JÓIA).
+
+rio         N * @(M-SG RIO).
+
+história    N * @(F-SG HISTÓRIA).
+
+histórias    N * @(F-PL HISTÓRIA).
+
+camisa      N * @(F-SG CAMISA).
+
+camisas     N * @(F-PL CAMISA).
+
+cavaleiro   N * @(M-SG CAVALEIRO).
+
+cavaleiros  N * @(M-PL CAVALEIRO).
+
+convento    N * @(M-SG CONVENTO).
+
+bosques     N * @(M-PL BOSQUE).
+
+ponte       N * @(F-SG PONTE).
+
+pontes      N * @(F-PL PONTE).
+
+castelo	  N * @(M-SG CASTELO).
+
+castelos	  N * @(M-PL CASTELO).
+
+anão        N * @(M-SG ANÃO).
+
+gigante	  N * (^ PRED)='GIGANTE' 
+	      (^ NUM)=SG.
+
+lenço       N * @(M-SG LENÇO).
+
+luva        N * @(F-SG LUVA).
+
+livro       N * @(M-SG LIVRO).
+
+livros      N * @(M-PL LIVRO).
+
+rouxinol    N * @(M-SG ROUXINOL).
+
+convés      N * @(M-SG CONVÉS).
+
+campanha    N * @(F-SG CAMPANHA).
+
+dama 	  N * @(F-SG DAMA).
+
+damas 	  N * @(F-SG DAMA).
+
+anel	  N * @(M-SG ANEL).
+
+anéis	  N * @(M-PL ANEL).
+
+floresta    N * @(F-SG FLORESTA).
+
+rainha 	  N * @(F-SG RAINHA).
+
+rainhas     N * @(F-PL RAINHA).
+
+bolsa       N * @(F-SG BOLSA).
+
+chegada    N * @(F-SG CHEGADA).
+
+chegadas    N * @(F-PL CHEGADA).
+
+----

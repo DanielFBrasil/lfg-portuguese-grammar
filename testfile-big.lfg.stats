@@ -1,0 +1,97 @@
+((1) (1 0.007 15) (4 words))
+((2) (1 0.005 15) (4 words))
+((3) (1 0.006 24) (6 words))
+((4) (1 0.004 15) (4 words))
+((5) (1 0.007 27) (7 words))
+((6) (1 0.004 18) (5 words))
+((7) (1 0.006 30) (8 words))
+((8) (1 0.007 27) (7 words))
+((9) (1 0.006 31) (8 words))
+((10) (1 0.008 31) (8 words))
+((11) (1 0.006 34) (9 words))
+((12) (1 0.006 25) (6 words))
+((13) (1 0.005 12) (3 words))
+((14) (1 0.005 18) (5 words))
+((15) (1 0.005 18) (5 words))
+((16) (1 0.004 12) (3 words))
+((17) (1 0.004 12) (3 words))
+((18) (1 0.004 9) (2 words))
+((19) (1 0.005 15) (4 words))
+((20) (1 0.004 15) (4 words))
+((21) (1 0.005 15) (4 words))
+((22) (1 0.005 15) (4 words))
+((23) (1 0.005 18) (5 words))
+((24) (1 0.006 30) (9 words))
+((25) (1 0.006 23) (7 words))
+((26) (1 0.005 20) (6 words))
+((27) (1 0.008 34) (10 words))
+((28) (1 0.004 15) (4 words))
+((29) (1 0.006 28) (8 words))
+((30) (1 0.005 25) (7 words))
+((31) (1 0.005 25) (7 words))
+((32) (1 0.006 36) (10 words))
+((33) (1 0.007 41) (12 words))
+((34) (1 0.009 61) (18 words))
+((35) (1 0.005 28) (8 words))
+((36) (1 0.005 22) (6 words))
+((37) (1 0.005 22) (6 words))
+((38) (1 0.004 22) (6 words))
+((39) (1 0.005 21) (6 words))
+((40) (1 0.005 21) (6 words))
+((41) (1 0.005 21) (6 words))
+((42) (1 0.005 21) (6 words))
+((43) (1 0.004 21) (5 words))
+((44) (1 0.004 21) (5 words))
+((45) (1 0.005 21) (5 words))
+((46) (1 0.007 34) (9 words))
+((47) (1 0.006 27) (7 words))
+((48) (1 0.007 31) (8 words))
+((49) (1 0.006 36) (10 words))
+((50) (1 0.006 31) (9 words))
+((51) (1 0.006 31) (9 words))
+((52) (1 0.006 31) (9 words))
+((53) (1 0.005 22) (6 words))
+((54) (1 0.006 31) (9 words))
+((55) (1 0.007 33) (9 words))
+((56) (1 0.006 29) (8 words))
+((57) (1 0.006 29) (8 words))
+((58) (2 0.008 46) (10 words))
+((59) (2 0.007 46) (10 words))
+((60) (2 0.007 45) (10 words))
+((61) (2 0.007 45) (10 words))
+((62) (1 0.007 42) (7 words))
+((63) (1 0.006 32) (6 words))
+((64) (1 0.005 24) (4 words))
+((65) (1 0.005 24) (4 words))
+((66) (1 0.008 57) (10 words))
+((67) (1 0.008 42) (7 words))
+((68) (1 0.007 48) (9 words))
+((69) (1 0.008 52) (10 words))
+((70) (1 0.005 24) (4 words))
+((71) (1 0.004 17) (4 words))
+((72) (1 0.004 17) (4 words))
+
+XLE release of May 07, 2013 13:40.
+Grammar = /home/daniel/Basic_Grammars/Basic_Portuguese/XLE-LFG-PT/XLE-LFG-PTBR/basic-portuguese.lfg.
+Grammar last modified on Jul 04, 2017 11:12.
+Host machine is daniel.
+72 sentences, 0 errors, 0 mismatches
+72 good sentences
+68 sentences had exactly one grammatical parse
+timeout = 100
+max_xle_scratch_storage = 100 MB
+prune_subtree_location = 1
+max_new_events_per_graph_when_skimming = 500
+maximum raw subtrees per sentence = 163 (#34)
+maximum event count per sentence = 3359
+average event count per graph = 41.646
+tokens = 16.8%, morph = 7.1%, multiword = 0.1%, lex = 14.2%, chart = 28.2%,
+unifier = 28.4%, completer = 2.3%, solver = 2.8%, output = 0.0%
+max_alloc_mem = 177.97 MB
+0.409 CPU secs total, 0.009 CPU secs max
+elapsed time = 1 seconds
+  range parsed failed  words   seconds  subtrees     optimal
+   1-10     70      0   6.59     0.006     26.49        1.06
+  11-20      2      0  15.00     0.008     51.00        1.00
+    all     72      0   6.82     0.006     27.17        1.06
+0.74 of the variance in seconds is explained by the number of subtrees

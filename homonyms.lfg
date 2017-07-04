@@ -1,0 +1,17 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+   
+para 	  V * @(CTRL-V-C PARAR DE)
+	      @A-FORM-V;
+	  P * (^ CASE)=PARA;
+            C * (^ CFORM)=PARA.
+            
+a 	  D * (^ GEN)=FEM
+	      (^ NUM)=SG
+	      (^ SPEC)=DEF;
+	  P * (^ CASE)=A;
+	  C * (^ CFORM)=A
+	      (^ VFORM) =c INF.
+
+
+----

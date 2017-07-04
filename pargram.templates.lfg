@@ -1,0 +1,26 @@
+PARGRAM ENGLISH TEMPLATES (1.0)
+
+"test"
+
+   T1(W M) = (^ M) = W.
+
+   IFF(P Q) = "P if and only Q (King 2004)"
+	  { P Q | ~P ~Q}.
+
+   PASSIVE(_SCHEMATA) = "passive lexical rule (adapted from King 2004)" 
+	  
+	  { 
+	    "active version"
+	    _SCHEMATA 
+	    (^ TENSE)|
+	    "passive version"
+	    _SCHEMATA 
+	    (^ VFORM) =c PART_PASS
+	    (^ OBJ) --> (^ SUBJ)
+	    { (^ SUBJ) --> NULL 
+	     |(^ SUBJ) --> (^ OBL)
+	      (^ OBL CASE) =c POR}
+	  }. 
+
+
+----

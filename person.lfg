@@ -1,0 +1,71 @@
+BASIC PORTUGUESE LEXICON (1.0)
+
+eu 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=1
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=EU
+	       (^ ANIM)=+.
+
+tu 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=2
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=TU
+	       (^ ANIM)=+.
+	      
+ele 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=3
+	       (^ GEND)=MAS
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=ELE
+	       (^ ANIM)=+.
+
+ela 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=SG
+	       (^ PERS)=3
+	       (^ GEND)=FEM
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=ELA
+	       (^ ANIM)=+.
+
+nós 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=1
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=NÓS
+	       (^ ANIM)=+.
+
+vós 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=2
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=VÓS
+	       (^ ANIM)=+.
+
+eles 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=3
+	       (^ GEND)=MAS
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=ELES
+	       (^ ANIM)=+.
+
+elas 	  PRON * (^ PRED)='PRO'
+	       (^ NUM)=PL
+	       (^ PERS)=3
+	       (^ GEND)=FEM
+	       (^ CASE)=NOM
+	       (^ PRON-TYPE)=PERS
+	       (^ PRON-FORM)=ELAS
+	       (^ ANIM)=+.
+
+----
