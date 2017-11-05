@@ -6,17 +6,17 @@ amável      A * (^ PRED)='AMÁVEL<(^ SUBJ)>'
 amáveis     A * (^ PRED)='AMÁVEL<(^ SUBJ)>'
 	      (^ SUBJ NUM)=PL.
 
-antigo      A * @(AMB FORMER OLD)
-	      @(A ANTIGO MAS SG).
+velho      A * @(AMB FORMER OLD)
+	      @(A VELHO MAS SG).
 	      
-antigos     A * @(AMB FORMER OLD)
-	      @(A ANTIGO MAS PL).	  
+velhos     A * @(AMB FORMER OLD)
+	      @(A VELHO MAS PL).	  
 	      	      	      	  
-antiga      A * @(AMB FORMER OLD)
-	      @(A ANTIGO FEM SG).	  
+velha      A * @(AMB FORMER OLD)
+	      @(A VELHO FEM SG).	  
 
-antigas     A * @(AMB FORMER OLD)
-	      @(A ANTIGO FEM PL).
+velhas     A * @(AMB FORMER OLD)
+	      @(A VELHO FEM PL).
 	      
 azul 	  A * @(A AZUL MAS SG)
 	      @COL.
